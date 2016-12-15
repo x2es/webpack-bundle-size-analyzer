@@ -23,7 +23,9 @@
   },
   "files": [
     "build",
-    "webpack-bundle-size-analyzer"
+    "webpack-bundle-size-analyzer",
+    "typings",
+    "tsconfig.json"
   ],
   "homepage": "http://github.com/robertknight/webpack-bundle-size-analyzer",
   "repository": {
