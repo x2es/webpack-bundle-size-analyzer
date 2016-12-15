@@ -4,9 +4,7 @@
   "description": "A utility to find how your dependencies are contributing to the size of your Webpack bundles",
   "main": "build/size_tree.js",
   "scripts": {
-    "test": "make test",
-    "preinstall": "npm install typescript",
-    "postinstall": "tsc"
+    "test": "make test"
   },
   "bin": {
     "webpack-bundle-size-analyzer": "./webpack-bundle-size-analyzer"
@@ -23,9 +21,7 @@
   },
   "files": [
     "build",
-    "webpack-bundle-size-analyzer",
-    "typings",
-    "tsconfig.json"
+    "webpack-bundle-size-analyzer"
   ],
   "homepage": "http://github.com/robertknight/webpack-bundle-size-analyzer",
   "repository": {
