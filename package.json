@@ -5,6 +5,7 @@
   "main": "build/size_tree.js",
   "scripts": {
     "test": "make test",
+    "preinstall": "npm install typescript",
     "postinstall": "tsc"
   },
   "bin": {
