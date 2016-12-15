@@ -31,7 +31,7 @@ commander.version('1.1.0')
 commander.parse(process.argv);
 
 
-  const opts = {
+  const opts = { 
     outputAsJson: commander['json'],
     sharesStat:   commander['sharesStat']
   }
