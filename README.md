@@ -19,6 +19,17 @@ Or added to `package.json`
 }
 ```
 
+## Building git_npm_x.x.x
+
+```bash
+$ git checkout master
+$ git checkout -b git_npm_x.x.x
+> remove 'build/' from .gitignore
+$ make all
+$ git commit
+$ git push origin git_npm_x.x.x
+```
+
 Webpack Bundle Size Analyzer
 ============================
 
