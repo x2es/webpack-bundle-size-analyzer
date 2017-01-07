@@ -1,21 +1,21 @@
 Fork
 ====
 
-Added `--no-shares-stat` option to supprss output like `(15.32%)`. See: https://github.com/robertknight/webpack-bundle-size-analyzer/pull/27
+Added `--no-share-stats` option to supprss output like `(15.32%)`. See: https://github.com/robertknight/webpack-bundle-size-analyzer/pull/27
 
 ## Instalation
 
-This fork may be installed by npm using `git_npm` branch
+This fork may be installed by npm using `git_npm_2.3.0` branch
 
 ```bash
-$ npm install -g x2es/webpack-bundle-size-analyzer#git_npm
+$ npm install -g x2es/webpack-bundle-size-analyzer#git_npm_2.3.0
 ```
 
 Or added to `package.json`
 
 ```json
 "devDependencies": {
-  "webpack-bundle-size-analyzer": "x2es/webpack-bundle-size-analyzer#git_npm"
+  "webpack-bundle-size-analyzer": "x2es/webpack-bundle-size-analyzer#git_npm_2.3.0"
 }
 ```
 
